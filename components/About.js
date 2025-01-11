@@ -22,7 +22,7 @@ const About = () => {
             <span>CONQUER :</span>
             <span>
               UNLEASH THE FUTURE AT HACK
-              <span className="text-[#91ff52]"> NOVA</span>
+              <span className="text-[#91ff52]"> NOVA 2.0</span>
             </span>
             <span></span>
             <span></span>
@@ -41,7 +41,7 @@ const About = () => {
 
             <div className="absolute w-[600px] max-md:w-[350px] top-1/4 md:top-1/2 left-1/2 mt-4 transform -translate-x-1/2 -translate-y-1/2 text-[#92FF52] text-justify overflow-hidden">
               <p className="text-xl max-md:text-sm font-bold leading-snug fira-code ">
-                Welcome to HackNova, the Newton School of Coding Club at SRM's
+                Welcome to HackNova 2.0, the Newton School of Coding Club at SRM's
                 thrilling coding festival. We invite enthusiastic developers,
                 creators, and tech lovers to join us in a vibrant environment of
                 ingenuity and problem-solving that combines the thrill of a

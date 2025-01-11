@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <link rel="icon" href="logo.svg" />
-        <title>HACK NOVA | NSCC-SRM</title>
+        <title>HACK NOVA 2.0 | NSCC-SRM</title>
       </Head>
       <Component {...pageProps} />
     </>
