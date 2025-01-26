@@ -18,7 +18,6 @@ const Hero = () => {
         className="block lg:hidden object-cover w-full h-[90vh]"
         autoPlay
         loop
-        muted
         playsInline
       >
         <source src="/hero1.mp4" type="video/mp4" />
@@ -28,7 +27,6 @@ const Hero = () => {
         className="hidden lg:block object-cover w-full h-[90vh]"
         autoPlay
         loop
-        muted
         playsInline
       >
         <source src="/hero.mp4" type="video/mp4" />
