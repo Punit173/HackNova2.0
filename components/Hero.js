@@ -14,10 +14,11 @@ const Hero = () => {
   }, []);
   return (
     <div className="relative h-screen overflow-hidden">
-      <video
+      {/* <video
         className="block lg:hidden object-cover w-full h-[90vh]"
         autoPlay
         loop
+        muted
         playsInline
       >
         <source src="/hero1.mp4" type="video/mp4" />
@@ -31,6 +32,12 @@ const Hero = () => {
         playsInline
       >
         <source src="/hero.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> */}
+
+      <video className="block lg:hidden object-cover w-full h-[90vh]" autoPlay loop muted playsInline>
+        <source src="/path-to-desktop-video.mp4" type="video/mp4" media="(min-width: 768px)" />
+        <source src="/path-to-mobile-video.mp4" type="video/mp4" media="(max-width: 767px)" />
         Your browser does not support the video tag.
       </video>
 
