@@ -35,9 +35,9 @@ const Hero = () => {
         Your browser does not support the video tag.
       </video> */}
 
-      <video className="block lg:hidden object-cover w-full h-[90vh]" autoPlay loop muted playsInline>
-        <source src="/path-to-desktop-video.mp4" type="video/mp4" media="(min-width: 768px)" />
-        <source src="/path-to-mobile-video.mp4" type="video/mp4" media="(max-width: 767px)" />
+      <video className="object-cover w-full h-[90vh]" autoPlay loop muted playsInline>
+        <source src="/hero.mp4" type="video/mp4" media="(min-width: 768px)" />
+        <source src="/hero1.mp4" type="video/mp4" media="(max-width: 767px)" />
         Your browser does not support the video tag.
       </video>
 
