@@ -22,11 +22,11 @@ const Faq = () => {
           {faqData.map((item, index) => (
             <div
               key={index}
-              className="border-2  mx-2 transition-transform ease-in-out duration-300 transform "
+              className="border-2 mx-2 transition-transform ease-in-out duration-300 transform"
               style={{ borderColor: "#374151", width: "90%" }}
             >
               <div
-                className={`cursor-pointer`}
+                className="cursor-pointer"
                 onClick={() => toggleDropdown(index)}
               >
                 <div
@@ -35,13 +35,11 @@ const Faq = () => {
                   }`}
                 >
                   <span
-                    className={`text-lg ${
-                      openAnswer === index ? "text-lime-700 fira-code font-bold" : ""
-                    }`}
+                    className="text-lg text-lime-700 fira-code font-bold"
                   >
                     {item.question}
                   </span>
-                  <span className={`text-xl`}>
+                  <span className="text-xl">
                     {openAnswer === index ? (
                       <IoIosArrowDropupCircle />
                     ) : (

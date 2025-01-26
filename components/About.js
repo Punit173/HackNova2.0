@@ -45,7 +45,7 @@ const About = () => {
                 thrilling coding festival. We invite enthusiastic developers,
                 creators, and tech lovers to join us in a vibrant environment of
                 ingenuity and problem-solving that combines the thrill of a
-                hackathon with the web development domain. HackNova is a
+                hackathon with the web development domain. HackNova 2.0 is a
                 platform where bright minds get together to explore, brainstorm,
                 and create innovative solutions, with a particular focus on web
                 development difficulties. It's not simply a hackathon.

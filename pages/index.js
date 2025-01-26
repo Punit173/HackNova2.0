@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Tracks from "../components/Tracks";
-import Timeline from "../components/Timeline";
+//import Timeline from "../components/Timeline";
 import Sponsors from "../components/Sponsors";
 import Faq from "../components/Faq";
 import Footer from "../components/Footer";
@@ -30,9 +30,9 @@ const Home = () => {
       <div id="tracks">
         <Tracks images={trackImages} />
       </div>
-      <div id="timeline">
+      {/*<div id="timeline"> 
         <Timeline />
-      </div>
+      </div>   */}    
       <Sponsors />
       <div id="faq">
         <Faq />

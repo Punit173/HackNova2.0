@@ -15,7 +15,17 @@ const Hero = () => {
   return (
     <div className="relative h-screen overflow-hidden">
       <video
-        className="object-cover w-full h-[90vh]"
+        className="block lg:hidden object-cover w-full h-[90vh]"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="/hero1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <video
+        className="hidden lg:block object-cover w-full h-[90vh]"
         autoPlay
         loop
         muted
@@ -24,6 +34,7 @@ const Hero = () => {
         <source src="/hero.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+
 
       <div className="absolute invisible md:visible bottom-[200px] right-10">
         <Link className="cursor-pointer" to="community" smooth={true}>
